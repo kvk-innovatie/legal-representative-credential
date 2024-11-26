@@ -3,36 +3,38 @@
   "iss": "https://kvk.nl/issuer",
   "iat": 1683000000,
   "exp": 1883000000,
-  "legal_name": "Witbaard Feestartikelen",
-  "identifier": "NLNHR.12345678",
-  "legal_form_type": "Besloten Vennootschap",
-  "registration_member_state": "nl",
-  "registered_address": {
-    "full_address": "1;Dorpstraat;1000AA;Amsterdam;Nederland",
-    "thoroughfare": "Dorpstraat",
-    "locator_designator": "1",
-    "post_code": "1000AA",
-    "post_name": "Amsterdam",
-    "post_office_box": "",
-    "locator_name": "",
-    "admin_unit_level1": "Nederland",
-    "admin_unit_level2": "Noord Holland"
-  },
-  "registration_date": "2015-01-01",
-  "legal_entity_status": "active",
-  "legal_entity_activity": {
-    "code": "C10.2.0",
-    "description": "Processing and preserving of fish, crustaceans and molluscs"
-  },
-  "contact_point": {
-    "contact_page": "www.witbaard.nl",
-    "contact_telephone": "+31612345678",
-    "contact_email": "info@witbaard.nl"
-  },
-  "legal_representative": {
-    "full_name": "Jan Klaasen",
-    "birth_date": "2000-01-01",
-    "signatory_rule": "alone",
-    "post": "Director"
+  "nl.kvk.legal_repesentative.namespace":{
+    "legal_name": "Witbaard Feestartikelen",
+    "identifier": "NLNHR.12345678",
+    "legal_form_type": "Besloten Vennootschap",
+    "registration_member_state": "nl",
+    "registered_address": {
+      "full_address": "1;Dorpstraat;1000AA;Amsterdam;Nederland",
+      "thoroughfare": "Dorpstraat",
+      "locator_designator": "1",
+      "post_code": "1000AA",
+      "post_name": "Amsterdam",
+      "post_office_box": "",
+      "locator_name": "",
+      "admin_unit_level1": "Nederland",
+      "admin_unit_level2": "Noord Holland"
+    },
+    "registration_date": "2015-01-01",
+    "legal_entity_status": "active",
+    "legal_entity_activity": {
+      "code": "C10.2.0",
+      "description": "Processing and preserving of fish, crustaceans and molluscs"
+    },
+    "contact_point": {
+      "contact_page": "www.witbaard.nl",
+      "contact_telephone": "+31612345678",
+      "contact_email": "info@witbaard.nl"
+    },
+    "legal_representative": {
+      "full_name": "Jan Klaasen",
+      "birth_date": "2000-01-01",
+      "signatory_rule": "alone",
+      "post": "Director"
+    }
   }
 }
