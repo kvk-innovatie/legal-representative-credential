@@ -3,7 +3,7 @@
   "iss": "https://kvk.nl/issuer",
   "iat": 1683000000,
   "exp": 1883000000,
-  "nl.kvk.legal_repesentative.namespace":{
+  "eu.europa.ec.eudi.legal_representative.nl.1":{
     "legal_name": "Witbaard Feestartikelen",
     "identifier": "NLNHR.12345678",
     "legal_form_type": "Besloten Vennootschap",
