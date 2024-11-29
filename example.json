@@ -3,6 +3,8 @@
   "iss": "https://kvk.nl/issuer",
   "iat": 1683000000,
   "exp": 1883000000,
+  "sub": "",
+  "attestation_type": "PubEAA",
   "eu.europa.ec.eudi.legal_representative.nl.1":{
     "legal_name": "Witbaard Feestartikelen",
     "identifier": "NLNHR.12345678",
