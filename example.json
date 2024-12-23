@@ -33,11 +33,9 @@
         "code": "C10.2.0",
         "description": "Processing and preserving of fish, crustaceans and molluscs"
       },
-      "contact_point": {
-        "contact_page": "www.witbaard.nl",
-        "contact_telephone": "+31612345678",
-        "contact_email": "info@witbaard.nl"
-      }
+      "contact_page": "www.witbaard.nl",
+      "contact_telephone": "+31612345678",
+      "contact_email": "info@witbaard.nl"
     },
     "legal_representative": {
       "full_name": "Jan Klaasen",

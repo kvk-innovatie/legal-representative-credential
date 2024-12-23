@@ -8,6 +8,10 @@ The repository contains the SD-JWT VC Type Metadata of the "Legal representative
 
 [An example of an unsecured payload of an SD-JWT "Legal Representative" VC.](example.json)
 
+The example has nested properties. MDOC can't handle nesting at this moment. So the [flattened version](example_flat.json) will be used in the KVK issuance service.
+
+flatten.sh will create example_flat from example.
+
 A json schema of the credential is work in progress.
 
 
