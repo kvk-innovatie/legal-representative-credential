@@ -4,6 +4,10 @@ A "Legal Representative" credential lives in a natural person wallet and is used
 
 The repository contains the SD-JWT VC Type Metadata of the "Legal representative" credential type issued by the Dutch chamber of commerce (KVK), but aimed to be compatible with European standards (as far as they exist). This credential is primarily based on [proposals of credential schemas](https://github.com/EWC-consortium/eudi-wallet-rulebooks-and-schemas) that are currently being developed within the EWC LSP consortium.
 
+A human friendler view of the data fields and there properties, you can find [here](https://legal-representative.mayersoftwaredevelopment.nl/)
+
+## Content of this repo
+
 [SD-JWT VC Type Metadata of the "Legal representative" credential type](legal_representative_credential.json)
 
 [An example of an unsecured payload of an SD-JWT "Legal Representative" VC.](example.json)
