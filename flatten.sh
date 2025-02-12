@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # Input JSON file
-INPUT_JSON="example.json"
+INPUT_JSON="example_nl.json"
 # Output flattened JSON file
-OUTPUT_JSON="example_flat.json"
+OUTPUT_JSON="example_nl_flat.json"
+
+CRED_NAME="vertegenwoordigingsbevoegdheid"
 
 # Function to recursively flatten JSON fields
 flatten_json() {
@@ -36,10 +38,10 @@ flatten_json() {
 # Extract the original JSON and keep all top-level properties intact
 jq -c '.' "$INPUT_JSON" | while IFS= read -r json; do
   # Flatten only the specified nested property
-  nested=$(echo "$json" | jq -c '."eu.europa.ec.eudi.legal_representative.nl.1"')
+  nested=$(echo "$json" | jq -c ".\"eu.europa.ec.eudi.$CRED_NAME.nl.1\"")
   flattened=$(flatten_json "" "$nested" | jq -s 'add')
   # Merge flattened property back into the original structure
-  echo "$json" | jq ".\"eu.europa.ec.eudi.legal_representative.nl.1\" = \$flattened" --argjson flattened "$flattened" > "$OUTPUT_JSON"
+  echo "$json" | jq ".\"eu.europa.ec.eudi.$CRED_NAME.nl.1\" = \$flattened" --argjson flattened "$flattened" > "$OUTPUT_JSON"
 done
 
 # Indicate completion

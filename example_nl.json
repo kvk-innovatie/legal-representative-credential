@@ -1,0 +1,58 @@
+{
+  "vct": "https://kvk.nl/vertegenwoordigingsbevoegdheid_credential",
+  "iss": "https://kvk.nl/issuer",
+  "iat": 1683000000,
+  "exp": 1883000000,
+  "sub": "",
+  "attestation_type": "PubEAA",
+  "eu.europa.ec.eudi.vertegenwoordigingsbevoegdheid.nl.1": {
+    "wettelijkeEntiteit": {
+      "naam": "Witbaard Feestartikelen",
+      "kvkNummer": "90000003",
+      "persoonRechtsvorm": "Besloten Vennootschap",
+      "registratieLidstaat": "nl",
+      "handelsnamen": "Witbaard Feestartikelen",
+      "adres": {
+        "straatnaam": "Dorpstraat",
+        "huisnummer": 1,
+        "huisletter": "c",
+        "postcode": "1218AA",
+        "plaats": "Eindhoven"
+      },
+      "registratieAanvang": "30-12-1982",
+      "geplaatstKapitaal": {
+        "waarde": "10000",
+        "valuta": "EUR"
+      },
+      "status": "actief",
+      "sbiActiviteit": {
+        "code": "6420",
+        "omschrijving": "Financiële holdings"
+      },
+      "domeinNaam": "www.witbarad.nl",
+      "emailAdres": "info@witbaard.nl",
+      "telefoon": "+31 209999999"
+    },
+    "vertegenwoordiger": {
+      "geboortedatum": "01-01-2000",
+      "volledigeNaam": "Jan Klaasen",
+      "nationaliteit": "NL",
+      "functie": "Bestuurder",
+      "functietitel": "Direkteur",
+      "wettelijkeBevoegdheid": {
+        "soortBevoegdheid": "Alleen/zelfstandig of Gezamenlijk bevoegd of Onbeperkt bevoegd of Beperkt bevoegd",
+        "beperkingInEuros": {
+          "waarde": "10000",
+          "valuta": "EUR"
+        }
+      },
+      "volmacht": {
+        "typeVolmacht": "Beperkt of Onbeperkt",
+        "beperkingInGeld": {
+          "waarde": "",
+          "valuta": ""
+        }
+      }
+    }
+  }
+}
