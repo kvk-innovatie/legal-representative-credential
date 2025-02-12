@@ -451,7 +451,7 @@
       "sd": "allowed"
     },
     {
-      "path": ["legal_representative_full_name"],
+      "path": ["representative_full_name"],
       "display": [
         {
           "lang": "en",
@@ -468,7 +468,7 @@
       "sd": "allowed"
     },
     {
-      "path": ["legal_representative_birth_date"],
+      "path": ["representative_birth_date"],
       "display": [
         {
           "lang": "en",
@@ -485,7 +485,7 @@
       "sd": "allowed"
     },
     {
-      "path": ["legal_representative_nationality"],
+      "path": ["representative_nationality"],
       "display": [
         {
           "lang": "en",
@@ -502,7 +502,7 @@
       "sd": "allowed"
     },
     {
-      "path": ["legal_representative_post"],
+      "path": ["representative_post"],
       "display": [
         {
           "lang": "en",
