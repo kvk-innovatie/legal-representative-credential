@@ -13,7 +13,7 @@
       "registration_member_state": "nl",
       "registered_address": {
         "care_of": "",
-        "full_address": "Dorpstraat 1, 1000AA Amsterdam, Noord Holland, Nederland",
+        "full_address": "1;Dorpstraat;1000AA;Amsterdam;Nederland",
         "thoroughfare": "Dorpstraat",
         "locator_designator": "1",
         "post_code": "1000AA",
@@ -43,10 +43,18 @@
       "nationality": "NL",
       "post": "Director",
       "legal_authority": {
-        "rule": "alone, jointly, restricted or unrestricted"
+        "rule": "alone, jointly, restricted or unrestricted",
+        "restriction_in_money": {
+          "amount": "10000",
+          "currency": "EUR"
+        }
       },
       "power_of_attorney": {
-        "rule": "restricted or unrestricted"
+        "rule": "restricted or unrestricted",
+        "restriction_in_money": {
+          "amount": "10000",
+          "currency": "EUR"
+        }
       }
     }
   }
