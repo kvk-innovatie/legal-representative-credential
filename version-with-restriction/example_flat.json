@@ -1,11 +1,11 @@
 {
-  "vct": "urn:eudi:power_of_representation:nl:1",
+  "vct": "urn:eudi:power-of-representation:nl:1",
   "iss": "https://kvk.nl/issuer",
   "iat": 1683000000,
   "exp": 1883000000,
   "sub": "",
   "attestation_type": "PubEAA",
-  "urn:eudi:power_of_representation:nl:1": {
+  "urn:eudi:power-of-representation:nl:1": {
     "legal_entity_name": "Witbaard Feestartikelen",
     "legal_entity_id": "NLNHR.12345678",
     "legal_entity_form_type": "Besloten Vennootschap",

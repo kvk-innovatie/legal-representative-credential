@@ -5,7 +5,7 @@ INPUT_JSON="example.json"
 # Output flattened JSON file
 OUTPUT_JSON="example_flat.json"
 
-CRED_NAME="power_of_representation"
+CRED_NAME="power-of-representation"
 
 # Function to recursively flatten JSON fields
 flatten_json() {
