@@ -11,7 +11,7 @@
     "legal_entity_form_type": "Besloten Vennootschap",
     "legal_entity_registration_member_state": "nl",
     "legal_entity_registered_address_care_of": "",
-    "legal_entity_registered_address_full_address": "1;Dorpstraat;1000AA;Amsterdam;Nederland",
+    "legal_entity_registered_address_full_address": "Dorpstraat 1, 1000AA Amsterdam, Noord Holland, Nederland",
     "legal_entity_registered_address_thoroughfare": "Dorpstraat",
     "legal_entity_registered_address_locator_designator": "1",
     "legal_entity_registered_address_post_code": "1000AA",
@@ -34,10 +34,6 @@
     "representative_nationality": "NL",
     "representative_post": "Director",
     "representative_legal_authority_rule": "alone, jointly, restricted or unrestricted",
-    "representative_legal_authority_restriction_in_money_amount": "10000",
-    "representative_legal_authority_restriction_in_money_currency": "EUR",
-    "representative_power_of_attorney_rule": "restricted or unrestricted",
-    "representative_power_of_attorney_restriction_in_money_amount": "10000",
-    "representative_power_of_attorney_restriction_in_money_currency": "EUR"
+    "representative_power_of_attorney_rule": "restricted or unrestricted"
   }
 }
