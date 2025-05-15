@@ -1,12 +1,13 @@
 {
-  "vct": "urn:eudi:power_of_representation:nl:1",
-  "name": "Power of Representation Credential - Preliminary Version",
-  "description": "A Power of Representation credential contains the attributes that descibe the representative of a legal entity.",
+  "vct": "urn:eudi:power-of-representation:nl:1",
+  "name": "Power of Representation Credential",
+  "description": "A Power of Representation credential contains the attributes that descibes the representative of a legal entity.",
   "display": [
     {
-      "lang": "en",
-      "name": "Power of Representation Credential",
+      "lang": "en-US",
+      "name": "Power of Representation",
       "description": "Attributes describing the representative of a legal entity.",
+      "summary": "{{legal_entity_name}}",
       "rendering": {
         "simple": {
           "logo": {
@@ -34,6 +35,7 @@
       "lang": "nl-NL",
       "name": "Vertegenwoordigingsbevoegdheid credential",
       "description": "Attributen die de wettelijke vertegenwoordigingsbevoegdheid van een juridische entitieit beschrijven.",
+      "summary": "{{legal_entity_name}}",
       "rendering": {
         "simple": {
           "logo": {
@@ -63,7 +65,7 @@
       "path": ["legal_entity_name"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Legal name",
           "description": "Legal person official name as in LPID."
         },
@@ -74,13 +76,14 @@
         }
       ],
       "verification": "authoritative",
-      "sd": "allowed"
+      "sd": "allowed",
+      "svg_id": "legal_entity_name"
     },
     {
       "path": ["legal_entity_id"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "EUID",
           "description": "EUID of the company."
         },
@@ -97,7 +100,7 @@
       "path": ["legal_entity_form_type"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Legal form",
           "description": "Legal form of the company."
         },
@@ -114,7 +117,7 @@
       "path": ["legal_entity_registration_member_state"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Member state",
           "description": "Member State where the company is registered, Alpha-2 country code, as defined in ISO 3166-1."
         },
@@ -131,7 +134,7 @@
       "path": ["legal_entity_registered_address_care_of"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Care of",
           "description": "Used when an address is at the address of another person or legal entity."
         },
@@ -148,7 +151,7 @@
       "path": ["legal_entity_registered_address_full_address"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Full Address",
           "description": "The complete address written as a string, separated with \";\"."
         },
@@ -165,7 +168,7 @@
       "path": ["legal_entity_registered_address_thoroughfare"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Thoroughfare",
           "description": "The name of a passage or way through from one location to another."
         },
@@ -182,7 +185,7 @@
       "path": ["legal_entity_registered_address_locator_designator"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Locator Designator",
           "description": "A number or a sequence of characters that uniquely identifies the locator within the relevant scope."
         },
@@ -199,7 +202,7 @@
       "path": ["legal_entity_registered_address_post_code"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Post Code",
           "description": "The code created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."
         },
@@ -216,7 +219,7 @@
       "path": ["legal_entity_registered_address_post_name"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Post Name",
           "description": "A name created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points."
         },
@@ -233,7 +236,7 @@
       "path": ["legal_entity_registered_address_post_office_box"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Post Office Box",
           "description": "A location designator for a postal delivery point at a post office, usually a number."
         },
@@ -250,7 +253,7 @@
       "path": ["legal_entity_registered_address_locator_name"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Locator Name",
           "description": "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building."
         },
@@ -267,7 +270,7 @@
       "path": ["legal_entity_registered_address_admin_unit_level1"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Admin Unit Level 1",
           "description": "The uppermost administrative unit for the address, almost always a country."
         },
@@ -284,7 +287,7 @@
       "path": ["legal_entity_registered_address_admin_unit_level2"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Admin Unit Level 2",
           "description": "The name of a secondary level/region of the address, usually a county, state or other such area that typically encompasses several localities."
         },
@@ -301,7 +304,7 @@
       "path": ["legal_entity_registration_date"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Date of registration",
           "description": "Date of registration of the company."
         },
@@ -318,7 +321,7 @@
       "path": ["legal_entity_share_capital_amount"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Capital amount",
           "description": "Amount of the capital subscribed"
         },
@@ -335,7 +338,7 @@
       "path": ["legal_entity_share_capital_currency"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Capital currency",
           "description": "Currency code used of the capital subscribed, as defined in ISO 4217:2015"
         },
@@ -352,7 +355,7 @@
       "path": ["legal_entity_status"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Status of the company",
           "description": "Status of the company as defined in national law and where recorded in the national register."
         },
@@ -369,7 +372,7 @@
       "path": ["legal_entity_activity_code"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Legal entity activity NACE code.",
           "description": "Object of the company describing its main activity or activities, which must be expressed using the Statistical Classification of Economic Activities in the European Community (NACE)."
         },
@@ -386,7 +389,7 @@
       "path": ["legal_entity_activity_description"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Short description of the legal entity activity",
           "description": "Short description of the legal entity activity."
         },
@@ -403,7 +406,7 @@
       "path": ["legal_entity_contact_page"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Company website",
           "description": "Details of the company website."
         },
@@ -420,7 +423,7 @@
       "path": ["legal_entity_contact_telephone"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Company phone",
           "description": "Details of the company phone."
         },
@@ -437,7 +440,7 @@
       "path": ["legal_entity_contact_email"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Company email",
           "description": "Details of the company email."
         },
@@ -454,7 +457,7 @@
       "path": ["representative_full_name"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Full name",
           "description": "Full name of the physical person representing the company."
         },
@@ -471,7 +474,7 @@
       "path": ["representative_birth_date"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Date of birth",
           "description": "Date of birth of the physical person representing the company."
         },
@@ -488,7 +491,7 @@
       "path": ["representative_nationality"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Nationality",
           "description": "Nationality of the physical person representing the company."
         },
@@ -505,7 +508,7 @@
       "path": ["representative_post"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Role of the person",
           "description": "Role of the person."
         },
@@ -522,7 +525,7 @@
       "path": ["representative_legal_authority_rule"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Legal authority rule",
           "description": "Information if the representative can engage the company alone or jointly."
         },
@@ -539,7 +542,7 @@
       "path": ["representative_legal_authority_restriction_in_money_amount"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Restriction in money",
           "description": "The authority is limited to the stated amount."
         },
@@ -556,7 +559,7 @@
       "path": ["representative_legal_authority_restriction_in_money_currency"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Currency of the restriction in money",
           "description": "Currency of the restriction in money."
         },
@@ -573,7 +576,7 @@
       "path": ["representative_power_of_attorney_rule"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Power of Attorney rule",
           "description": "Information if the power of attorney is restricted or unrestricted."
         },
@@ -590,7 +593,7 @@
       "path": ["representative_power_of_attorney_restriction_in_money_amount"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Restriction in money",
           "description": "The authority is limited to the stated amount."
         },
@@ -607,7 +610,7 @@
       "path": ["representative_power_of_attorney_restriction_in_money_currency"],
       "display": [
         {
-          "lang": "en",
+          "lang": "en-US",
           "label": "Currency of the restriction in money",
           "description": "Currency of the restriction in money."
         },
@@ -621,6 +624,141 @@
       "sd": "allowed"
     }
   ],
-  "schema_url": "https://kvk-innovatie.github.io/legal-representative-credential/schema",
-  "schema_url#integrity": "sha256-o984vn819a48ui1llkwPmKjZ5t0WRL5ca_xGgX3c1VLmXfh"
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "NL Power of Representation VCT Schema",
+    "description": "The JSON schema that defines the NL Power of Representation VCT",
+    "type": "object",
+    "properties": {
+      "vct": {
+        "type": "string"
+      },
+      "vct#integrity": {
+        "type": "string"
+      },
+      "iss": {
+        "type": "string"
+      },
+      "nbf": {
+        "type": "number"
+      },
+      "exp": {
+        "type": "number"
+      },
+      "cnf": {
+        "type": "object"
+      },
+      "status": {
+        "type": "object"
+      },
+      "sub": {
+        "type": "string"
+      },
+      "iat": {
+        "type": "number"
+      },
+      "attestation_qualification": {
+        "type": "string",
+        "enum": ["EAA", "QEAA", "Pub-EAA"]
+      },
+      "legal_entity_name": {
+        "type": "string"
+      },
+      "legal_entity_id": {
+        "type": "string"
+      },
+      "legal_entity_form_type": {
+        "type": "string"
+      },
+      "legal_entity_registration_member_state": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_care_of": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_full_address": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_thoroughfare": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_locator_designator": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_post_code": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_post_name": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_post_office_box": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_locator_name": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_admin_unit_level1": {
+        "type": "string"
+      },
+      "legal_entity_registered_address_admin_unit_level2": {
+        "type": "string"
+      },
+      "legal_entity_registration_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "legal_entity_share_capital_amount": {
+        "type": "string"
+      },
+      "legal_entity_share_capital_currency": {
+        "type": "string"
+      },
+      "legal_entity_status": {
+        "type": "string"
+      },
+      "legal_entity_activity_code": {
+        "type": "string"
+      },
+      "legal_entity_activity_description": {
+        "type": "string"
+      },
+      "legal_entity_contact_page": {
+        "type": "string"
+      },
+      "legal_entity_contact_telephone": {
+        "type": "string"
+      },
+      "legal_entity_contact_email": {
+        "type": "string"
+      },
+      "representative_full_name": {
+        "type": "string"
+      },
+      "representative_birth_date": {
+        "type": "string",
+        "format": "date"
+      },
+      "representative_nationality": {
+        "type": "string"
+      },
+      "representative_post": {
+        "type": "string"
+      },
+      "representative_legal_authority_rule": {
+        "type": "string",
+        "enum": ["restricted", "unrestricted"]
+      },
+      "representative_power_of_attorney_rule": {
+        "type": "string",
+        "enum": ["alone", "jointly", "restricted", "unrestricted"]
+      }
+    },
+    "required": [
+      "vct",
+      "iss",
+      "attestation_qualification",
+      "legal_entity_name",
+      "legal_entity_id"
+    ]
+  }
 }

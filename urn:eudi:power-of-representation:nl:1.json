@@ -685,6 +685,12 @@
         "enum": ["alone", "jointly", "restricted", "unrestricted"]
       }
     },
-    "required": ["vct", "iss", "attestation_qualification", "legal_entity_name", "legal_entity_id"]
+    "required": [
+      "vct",
+      "iss",
+      "attestation_qualification",
+      "legal_entity_name",
+      "legal_entity_id"
+    ]
   }
 }
