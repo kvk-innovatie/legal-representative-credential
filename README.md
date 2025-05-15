@@ -8,7 +8,7 @@ A human friendler view of the data fields and there properties, you can find [he
 
 ## Content of this repo
 
-[SD-JWT VC Type Metadata of the "Power of Representation" credential type](power-of-representation.json)
+[SD-JWT VC Type Metadata of the "Power of Representation" credential type](eudi:power-of-representation:nl:1.json)
 
 [An example of an unsecured payload of an SD-JWT "Power of Representation" VC.](example.json)
 
