@@ -1,7 +1,7 @@
 {
   "vct": "urn:eudi:power_of_representation:nl:1",
   "name": "Power of Representation Credential - Preliminary Version",
-  "description": "A Power of Representation credential contains the attributes that descibe the representative of a legal entity.",
+  "description": "A Power of Representation credential contains the attributes that descibes the representative of a legal entity.",
   "display": [
     {
       "lang": "en",
