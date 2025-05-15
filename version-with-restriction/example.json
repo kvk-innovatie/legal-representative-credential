@@ -1,10 +1,13 @@
 {
   "vct": "urn:eudi:power-of-representation:nl:1",
   "iss": "https://kvk.nl/issuer",
-  "iat": 1683000000,
+  "nbf": 1683000000,
   "exp": 1883000000,
+  "cnf": {},
+  "status": "",
   "sub": "",
-  "attestation_type": "PubEAA",
+  "iat": 1683000000,
+  "attestation_qualification": "Pub-EAA",
   "urn:eudi:power-of-representation:nl:1": {
     "legal_entity": {
       "name": "Witbaard Feestartikelen",
