@@ -678,11 +678,11 @@
       },
       "representative_legal_authority_rule": {
         "type": "string",
-        "enum": ["restricted", "unrestricted"]
+        "enum": ["alone", "jointly", "restricted", "unrestricted"]
       },
       "representative_power_of_attorney_rule": {
         "type": "string",
-        "enum": ["alone", "jointly", "restricted", "unrestricted"]
+        "enum": ["restricted", "unrestricted"]
       }
     },
     "required": [
